@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B26855C3230CE37900016740 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B26855C2230CE37900016740 /* AppDelegate.m */; };
+		B26855C6230CE37900016740 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26855C5230CE37900016740 /* ViewController.m */; };
+		B26855C9230CE37900016740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26855C7230CE37900016740 /* Main.storyboard */; };
+		B26855CB230CE37C00016740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26855CA230CE37C00016740 /* Assets.xcassets */; };
+		B26855CE230CE37C00016740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26855CC230CE37C00016740 /* LaunchScreen.storyboard */; };
+		B26855D1230CE37C00016740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B26855D0230CE37C00016740 /* main.m */; };
+		B26855DB230CE37C00016740 /* SDKRunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B26855DA230CE37C00016740 /* SDKRunTests.m */; };
+		B26855E6230CE39700016740 /* SDKTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26855E5230CE39700016740 /* SDKTest.framework */; };
+		B26855E8230CE39D00016740 /* SDKTestBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B26855E7230CE39D00016740 /* SDKTestBundle.bundle */; };
+		B26855E9230CE3DF00016740 /* SDKTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26855E5230CE39700016740 /* SDKTest.framework */; };
+		B26855EA230CE3DF00016740 /* SDKTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B26855E5230CE39700016740 /* SDKTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B26855D7230CE37C00016740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B26855B6230CE37900016740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B26855BD230CE37900016740;
+			remoteInfo = SDKRun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B26855EB230CE3DF00016740 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B26855EA230CE3DF00016740 /* SDKTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B26855BE230CE37900016740 /* SDKRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26855C1230CE37900016740 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B26855C2230CE37900016740 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B26855C4230CE37900016740 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B26855C5230CE37900016740 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B26855C8230CE37900016740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B26855CA230CE37C00016740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26855CD230CE37C00016740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B26855CF230CE37C00016740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26855D0230CE37C00016740 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B26855D6230CE37C00016740 /* SDKRunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKRunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26855DA230CE37C00016740 /* SDKRunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKRunTests.m; sourceTree = "<group>"; };
+		B26855DC230CE37C00016740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26855E5230CE39700016740 /* SDKTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDKTest.framework; sourceTree = "<group>"; };
+		B26855E7230CE39D00016740 /* SDKTestBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SDKTestBundle.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26855BB230CE37900016740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26855E6230CE39700016740 /* SDKTest.framework in Frameworks */,
+				B26855E9230CE3DF00016740 /* SDKTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26855D3230CE37C00016740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B26855B5230CE37900016740 = {
+			isa = PBXGroup;
+			children = (
+				B26855C0230CE37900016740 /* SDKRun */,
+				B26855D9230CE37C00016740 /* SDKRunTests */,
+				B26855BF230CE37900016740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B26855BF230CE37900016740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B26855BE230CE37900016740 /* SDKRun.app */,
+				B26855D6230CE37C00016740 /* SDKRunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B26855C0230CE37900016740 /* SDKRun */ = {
+			isa = PBXGroup;
+			children = (
+				B26855C1230CE37900016740 /* AppDelegate.h */,
+				B26855C2230CE37900016740 /* AppDelegate.m */,
+				B26855C4230CE37900016740 /* ViewController.h */,
+				B26855C5230CE37900016740 /* ViewController.m */,
+				B26855E7230CE39D00016740 /* SDKTestBundle.bundle */,
+				B26855E5230CE39700016740 /* SDKTest.framework */,
+				B26855C7230CE37900016740 /* Main.storyboard */,
+				B26855CA230CE37C00016740 /* Assets.xcassets */,
+				B26855CC230CE37C00016740 /* LaunchScreen.storyboard */,
+				B26855CF230CE37C00016740 /* Info.plist */,
+				B26855D0230CE37C00016740 /* main.m */,
+			);
+			path = SDKRun;
+			sourceTree = "<group>";
+		};
+		B26855D9230CE37C00016740 /* SDKRunTests */ = {
+			isa = PBXGroup;
+			children = (
+				B26855DA230CE37C00016740 /* SDKRunTests.m */,
+				B26855DC230CE37C00016740 /* Info.plist */,
+			);
+			path = SDKRunTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B26855BD230CE37900016740 /* SDKRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26855DF230CE37C00016740 /* Build configuration list for PBXNativeTarget "SDKRun" */;
+			buildPhases = (
+				B26855BA230CE37900016740 /* Sources */,
+				B26855BB230CE37900016740 /* Frameworks */,
+				B26855BC230CE37900016740 /* Resources */,
+				B26855EB230CE3DF00016740 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKRun;
+			productName = SDKRun;
+			productReference = B26855BE230CE37900016740 /* SDKRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B26855D5230CE37C00016740 /* SDKRunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26855E2230CE37C00016740 /* Build configuration list for PBXNativeTarget "SDKRunTests" */;
+			buildPhases = (
+				B26855D2230CE37C00016740 /* Sources */,
+				B26855D3230CE37C00016740 /* Frameworks */,
+				B26855D4230CE37C00016740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B26855D8230CE37C00016740 /* PBXTargetDependency */,
+			);
+			name = SDKRunTests;
+			productName = SDKRunTests;
+			productReference = B26855D6230CE37C00016740 /* SDKRunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B26855B6230CE37900016740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "荟医信息科技有限公司";
+				TargetAttributes = {
+					B26855BD230CE37900016740 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B26855D5230CE37C00016740 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B26855BD230CE37900016740;
+					};
+				};
+			};
+			buildConfigurationList = B26855B9230CE37900016740 /* Build configuration list for PBXProject "SDKRun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B26855B5230CE37900016740;
+			productRefGroup = B26855BF230CE37900016740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B26855BD230CE37900016740 /* SDKRun */,
+				B26855D5230CE37C00016740 /* SDKRunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26855BC230CE37900016740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26855E8230CE39D00016740 /* SDKTestBundle.bundle in Resources */,
+				B26855CE230CE37C00016740 /* LaunchScreen.storyboard in Resources */,
+				B26855CB230CE37C00016740 /* Assets.xcassets in Resources */,
+				B26855C9230CE37900016740 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26855D4230CE37C00016740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26855BA230CE37900016740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26855C6230CE37900016740 /* ViewController.m in Sources */,
+				B26855D1230CE37C00016740 /* main.m in Sources */,
+				B26855C3230CE37900016740 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26855D2230CE37C00016740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26855DB230CE37C00016740 /* SDKRunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B26855D8230CE37C00016740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B26855BD230CE37900016740 /* SDKRun */;
+			targetProxy = B26855D7230CE37C00016740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B26855C7230CE37900016740 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26855C8230CE37900016740 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B26855CC230CE37C00016740 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26855CD230CE37C00016740 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B26855DD230CE37C00016740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B26855DE230CE37C00016740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B26855E0230CE37C00016740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA7DAWX5V5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKRun",
+				);
+				INFOPLIST_FILE = SDKRun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huidr.SDKRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B26855E1230CE37C00016740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA7DAWX5V5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKRun",
+				);
+				INFOPLIST_FILE = SDKRun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huidr.SDKRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B26855E3230CE37C00016740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA7DAWX5V5;
+				INFOPLIST_FILE = SDKRunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huidr.SDKRunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDKRun.app/SDKRun";
+			};
+			name = Debug;
+		};
+		B26855E4230CE37C00016740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA7DAWX5V5;
+				INFOPLIST_FILE = SDKRunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huidr.SDKRunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDKRun.app/SDKRun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26855B9230CE37900016740 /* Build configuration list for PBXProject "SDKRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26855DD230CE37C00016740 /* Debug */,
+				B26855DE230CE37C00016740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26855DF230CE37C00016740 /* Build configuration list for PBXNativeTarget "SDKRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26855E0230CE37C00016740 /* Debug */,
+				B26855E1230CE37C00016740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26855E2230CE37C00016740 /* Build configuration list for PBXNativeTarget "SDKRunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26855E3230CE37C00016740 /* Debug */,
+				B26855E4230CE37C00016740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B26855B6230CE37900016740 /* Project object */;
+}
